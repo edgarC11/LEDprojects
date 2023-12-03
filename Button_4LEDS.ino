@@ -7,7 +7,7 @@ const int ledPin2 = 6;
 const int ledPin3 = 7;
 const int ledPin4 = 8;
 
-// variables will change:
+
 int  initial    = 0;       
 int oldstate    = 0;       
 int buttonstate = 0;      
