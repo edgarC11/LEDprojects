@@ -9,6 +9,10 @@ void setup() {
     pinMode(i, OUTPUT);
   }
 }
+void loop()
+{
+ effect_1();
+}
 
 //left to right and right to left
 void effect_1()
