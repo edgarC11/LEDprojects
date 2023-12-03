@@ -1,0 +1,21 @@
+void effect_3()
+{
+for(int i=4; i<14; i++){
+  digitalWrite(i, HIGH);
+  delay(t3);
+}
+for(int i=4; i<14; i++){
+  digitalWrite(i, LOW);
+  delay(t3);
+}
+
+
+for(int i = 13; i>=4; i--){
+  digitalWrite(i, HIGH);
+  delay(t3);
+}
+for(int i = 13; i>=4; i--){
+  digitalWrite(i, LOW);
+  delay(t3);
+}
+}
