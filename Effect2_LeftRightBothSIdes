@@ -1,0 +1,28 @@
+void effect_2()
+{
+int count = 13; // keeps track of second LED movement
+
+  // move first LED from left to right and second from right to left
+  for (int i = 4; i < 13; i++) {
+    clear();
+    digitalWrite(i, HIGH);      // chaser 1
+    digitalWrite(count, HIGH); // chaser 2
+    count--;
+    // stop LEDs from appearing to stand still in the middle
+    if (count != 7) {
+      delay(t2);
+    }
+  }
+
+  // move first LED from right to left and second LED from left to right
+  for (int i = 13; i > 4; i--) {
+    clear();
+    digitalWrite(i, HIGH);      // chaser 1
+    digitalWrite(count, HIGH); // chaser 2
+    count++;
+    // stop LEDs from appearing to stand still in the middle
+    if (count != 8) {
+      delay(t2);
+    }
+  }
+}
