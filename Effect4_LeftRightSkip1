@@ -1,0 +1,22 @@
+void effect_4()
+{
+for(int j = 2; j <= 13; j++){
+  digitalWrite(j, HIGH);
+  delay(t2);
+  j=j+1;
+  }
+for(int j = 2; j <= 13; j++){
+  digitalWrite(j, LOW);
+  delay(t2);
+  }
+
+  for(int k = 13; k > 4; k--){
+  digitalWrite(k, HIGH);
+  delay(t2);
+  k=k-1;
+  }
+for(int k = 13; k > 4; k--){
+  digitalWrite(k, LOW);
+  delay(t2);
+  }
+}
