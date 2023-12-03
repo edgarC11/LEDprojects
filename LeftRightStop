@@ -1,0 +1,90 @@
+ void effect_5()
+{
+ for(int pin = 13; pin >= 4; pin--)
+  {
+  digitalWrite(pin, HIGH);
+  delay(t1);
+  digitalWrite(pin+1, LOW);
+  delay(t1);
+  }
+  for(int pin = 13; pin >= 4; pin--)
+  {
+  digitalWrite(pin+1, HIGH);
+  delay(t1);
+  digitalWrite(pin+2, LOW);
+  delay(t1);
+  }
+  for(int pin = 13; pin >= 4; pin--)
+  {
+  digitalWrite(pin+2, HIGH);
+  delay(t1);
+  digitalWrite(pin+3, LOW);
+  delay(t1);
+  }
+  for(int pin = 13; pin >= 4; pin--)
+  {
+  digitalWrite(pin+3, HIGH);
+  delay(t1);
+  digitalWrite(pin+4, LOW);
+  delay(t1);
+  }
+    for(int pin = 13; pin >= 4; pin--)
+  {
+  digitalWrite(pin+4, HIGH);
+  delay(t1);
+  digitalWrite(pin+5, LOW);
+  delay(t1);
+  }
+  for(int pin = 13; pin >= 4; pin--)
+  {
+  digitalWrite(pin+5, HIGH);
+  delay(t1);
+  digitalWrite(pin+6, LOW);
+  delay(t1);
+  }
+  for(int pin = 13; pin >= 4; pin--)
+  {
+  digitalWrite(pin+6, HIGH);
+  delay(t1);
+  digitalWrite(pin+7, LOW);
+  delay(t1);
+  }
+   for(int pin = 13; pin >= 4; pin--)
+  {
+  digitalWrite(pin+7, HIGH);
+  delay(t1);
+  digitalWrite(pin+8, LOW);
+  delay(t1);
+  }
+  for(int pin = 9; pin >= 4; pin--)
+  {
+  digitalWrite(pin+8, HIGH);
+  delay(t1);
+  digitalWrite(pin+9, LOW);
+  delay(t1);
+  }
+    for(int pin = 9; pin >= 4; pin--)
+  {
+  digitalWrite(pin+9, HIGH);
+  delay(t1);
+  digitalWrite(pin+10, LOW);
+  delay(t1);
+  }
+  for(int pin = 9; pin >= 4; pin--)
+  {
+  digitalWrite(pin+10, HIGH);
+  delay(t1);
+  digitalWrite(pin+11, LOW);
+  delay(t1);
+  }
+  for(int pin = 13; pin >= 4; pin--)
+  {
+  digitalWrite(pin+11, HIGH);
+  delay(t1);
+  }
+  for(int pin = 13; pin >= 4; pin--)
+  {
+    digitalWrite(pin, LOW);
+  delay(t1);
+    }
+  }
